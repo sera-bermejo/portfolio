@@ -1,0 +1,106 @@
+
+:root {
+  --primary-color: #c07e88;
+  font-size: 16px;
+}
+
+.footer {
+  font-style: italic;
+  text-align: center;
+
+  font-size: 1.5rem; /* 32px?? */
+  /* 1. border */
+  /* border: 2px solid red; */
+  /* border-radius: 10px; */
+  /* 2. margin */
+  margin: 10px;
+  /* margin-left: 0;*/
+  /* margin: Top Right Bottom Left */
+  margin: 20px 10px 0 5px;
+  /* margin: Y (top/bottom) X (left/right) */
+  margin: 0 20px;
+  margin: 20px 0 0 0;
+  /* 3. paddings */
+  padding: 40px 0;
+  /* color: #FFFFFF; */
+}
+
+.navbar, .footer {
+  background-color: var(--primary-color);
+  color: #FFF;
+}
+
+.navbar .link {
+  color: #FFF;
+  float: right;
+  float: inline-start;
+  justify-content: space-between;
+  /* visibility: hidden; */
+  /* display: none; */
+}
+
+nav.navbar img.logo {
+  width: 15%;
+  max-width: 80px;
+  border-radius: 50px; 
+}
+
+.header {
+  width: 100vw;
+  height: 50vh;
+}
+
+.link {
+  text-decoration: none;
+}
+
+
+.navbar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .menu {
+  display: none;
+}
+
+.navbar .menu .link {
+  margin-left: 10px;
+}
+
+
+@media screen and (min-width: 576px) {
+ 
+  .navbar .menu {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .navbar .menu .link {
+    transition: color 0.3s linear;
+  }
+  .navbar .menu .link:hover {
+    color: rgb(139, 83, 83);
+  }
+}
+/* X-Small devices (portrait phones, less than 576px) */
+/* No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {}
+

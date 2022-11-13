@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Humphrey Bogart</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+  <hr>
+  <nav class="navbar">
+    <img class="logo" src="img/Bogart.jpg" alt="Bogart tosiendo">
+    <ul class="menu">
+      <li>
+        <a class="link" href="#">Bio</a>
+      </li>
+      <li>
+        <a class="link" href="#">Contacto</a>
+      </li>
+      <li>
+        <a class="link" href="#">Habilidades</a>
+      </li>
+      <li>
+        <a class="link" href="#">Cómo me conociste</a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <img class="header" src="img/Bogart rojo.webp" alt="Bogart rojo">
+</div>
+  <main>
+  </main>
+  <a class="link white" href="https://es.wikipedia.org/wiki/Humphrey_Bogart" target="_blank">Ir a wikipedia</a>
+  <h1>Sobre mí</h1>
+<div>
+<p>Me llamo Humphrey, de apellido Bogart. Quizá te suene. Tuve una época dorada en Hollywood, pero por lo que sea, el público ahora no me quiere. Estoy tratando de encauzar mi vida después de unos años de mucha fiesta con el Rat Pack (cursiva). Qué cabrones los del Rat Pack (cursiva) y qué ratos mas buenos hemos pasado, maldita sea. Me acuerdo una noche que a Sinatra le dio por tirar billetes de cien dólares por el váter de un bar de mala muerte y tuvimos que salir por patas porque lo inundó todo... Qué tiempos aquellos en que podías mearte en la cara del camarero o apretar los muslos de una buena muchacha y nadie se enfadaba. El caso es que ahora la banda está disuelta y, por cuestiones de salud, debo reformarme. Si eres director de cine y buscas a un tipo duro, galán y encantador, no dudes en dejar tus datos. Prometo no llegar borracho al rodaje. </p>
+</div>
+<div>
+    <form class="form" action="registro completado.html" method="post">
+        <div>
+            <label for="nombre">Nombre: </label>
+            <input id="nombre" required name="nombre" type="text" placeholder="Pon tu nombre">
+        </div>
+        <div>
+            <label for="apellidos">Apellidos: </label>
+            <input id="apellidos" required name="apellidos" type="text" placeholder="Pon tus apellidos">
+        </div>
+        <div>
+            <label for="teléfono">Teléfono: </label>
+            <input id="teléfono" required name="teléfono" type="tel" placeholder="Pon tu teléfono">
+            
+        </div>
+        <div>
+            <label for="Oscar username">Username academia de los Oscar:</label>
+            <input id="Oscar username" required name="Oscar username" pattern="^@[^\s]+" placeholder="Ej: @steven_spielberg45">
+            
+        </div>
+        </form>
+        <div>
+            <h2>Lo que sé hacer:</h2>
+            <ul id="skill">
+              <li><span class="bar hablar"></span><h3>Hablar sin mostrar emoción</h3></li>
+              <li><span class="bar sonreír"></span><h3>sonreír</h3></li>
+              <li><span class="bar puñetazos"></span><h3>Pegar puñetazos</h3></li>
+            
+            </ul>
+        </div>
+            <div>
+                <form class="form" action="registro completado.html" method="post">
+            <fieldset>
+                
+                <legend>¿Cómo me conociste?</legend>
+
+                <label for="casablanca">Por Casablanca</label>
+                <input id="casablanca" required type="radio" name="favlang" value="casablanca">
+
+                <label for="casados">Hemos estado casados</label>
+                <input id="casados" required type="radio" name="favlang" value="casados" >
+
+                <label for="anuncio">Por el maldito anuncio de bolis</label>
+                <input id="anuncio" required type="radio" name="favlang" value="anuncio">
+
+                <label for="dinero">Te debo dinero</label>
+                <input id="dinero" required type="radio" name="favlang" value="dinero">
+               
+            </fieldset>
+                </form></div>
+            <div>
+                <label for="Bio"></label>
+                <textarea maxlength="180characters" name="Bio" required id="bio" cols="50" rows="10">Si tienes algo más que decir, puedes hacerlo aquí, pero no leeré más de 180 caracteres.</textarea>
+            </div>
+            <input type="submit" value="enviar">
+    </form>
+</div>
+<div>
+    <p>No tengo ni idea de redes sociales, pero mi agente me ha dicho que hoy en día en Hollywood nadie se fija en ti si no tienes millones de seguidores:</p>
+</div>
+    <footer class="footer">
+        <em>Redes sociales</em>
+        <img src="img/Bacall, Bogart y Monroe.jpg" alt="rrss">
+    </footer>    
+</body>
+
+</html>
